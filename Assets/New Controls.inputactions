@@ -1,0 +1,106 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "MouseInput",
+            "id": "11a8c702-e33c-4363-9ecb-cb55201dc695",
+            "actions": [
+                {
+                    "name": "MouseX",
+                    "type": "PassThrough",
+                    "id": "3c24e718-5284-4119-8afa-923bdfa2a402",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MouseY",
+                    "type": "PassThrough",
+                    "id": "9ee881f1-bb6f-4930-9d1e-b27179fffcbe",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MouseWheelUp",
+                    "type": "PassThrough",
+                    "id": "0a7ce19f-909a-4658-8206-cd92bf8caf7c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MouseWheelDown",
+                    "type": "PassThrough",
+                    "id": "68bc632b-0ba7-40b5-8b83-7dd6b4b54961",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65cb2e9c-8875-4e2a-a578-e4bfdb7a8895",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Inputs",
+                    "action": "MouseX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d3b2c99-bfed-4102-a495-47e6a47185c0",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Inputs",
+                    "action": "MouseY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e6904af-1a07-4b7e-bfc3-96101afcca91",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Inputs",
+                    "action": "MouseWheelUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eda1876d-3b07-4758-9ab6-98ab60efe8a9",
+                    "path": "<Mouse>/scroll/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Inputs",
+                    "action": "MouseWheelDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Inputs",
+            "bindingGroup": "Inputs",
+            "devices": [
+                {
+                    "devicePath": "<VirtualMouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
